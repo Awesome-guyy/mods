@@ -1,0 +1,407 @@
+[
+ {
+  "slug": "kaizo-mario-galaxy-legacy",
+  "name": "Kaizo Mario Galaxy (Legacy Edition)",
+  "game": "SMG1",
+  "credits": "TheGreatWaluigi; Super Hackio; Aurum; Galaxy Hacker; Wingbeat; CollinHughes; Uupo03",
+  "released": "2018",
+  "page": "https://www.youtube.com/watch?v=KzKe9H63cW4",
+  "source": "https://www.mediafire.com/file/3xn7ikhf0981iue/KaizoMarioGalaxyLegacyEdition.zip/file"
+ },
+ {
+  "slug": "kaizo-mario-galaxy-rebalanced",
+  "name": "Kaizo Mario Galaxy (Rebalanced)",
+  "game": "SMG1",
+  "credits": "TheGreatWaluigi; Super Hackio; Galaxy Master; Marcocos; Big P Paco; TheSunCat; mariokirby1703; froggo; TheDes7royer; Alex SMG",
+  "released": "2023",
+  "page": "https://www.youtube.com/watch?v=34l_jIGSNgU",
+  "source": "https://www.mediafire.com/file/mw07lmjnp2f8f15/KaizoMarioGalaxyRebalanced+V2.1.zip/file"
+ },
+ {
+  "slug": "kaizo-mario-galaxy-2",
+  "name": "Kaizo Mario Galaxy 2",
+  "game": "SMG2",
+  "credits": "TheGreatWaluigi; Super Hackio; TheDes7royer; Gabbo; Islender; Galaxy Master; Aurum; Huebi; Uupo03",
+  "released": "2021",
+  "page": "https://www.youtube.com/watch?v=DE538O_QVbo",
+  "source": "https://www.mediafire.com/file/c9gu9adt9lj5og6/Kaizo_Mario_Galaxy_2_V1.1.zip/file"
+ },
+ {
+  "slug": "lost-levels-directors-cut",
+  "name": "Super Mario Galaxy - The Lost Levels: Director's Cut",
+  "game": "SMG2",
+  "credits": "froggo; JasonTGF; HEYimHeroic; JakoNintencraft; Aurum; Cochu U; SY24; Lego Mario; SuperMarioBro47; Louis Miles; Stomatol",
+  "released": "2022",
+  "page": "https://www.youtube.com/watch?v=TOxHGyAtZnE",
+  "source": "https://mega.nz/file/4L0hXaIR#sOEhTXcGuJiRr4OfrSxJ2vtommRziuIO2c_JQuXeA1k",
+  "also": [
+   "https://mega.nz/file/4OkTAbaD#A9e5FfwE57d_SCpDkh8X-WzcJIVtAab6wr2Tifb2vks"
+  ]
+ },
+ {
+  "slug": "smg2-collectors-anxiety",
+  "name": "Super Mario Galaxy 2: Collectors Anxiety",
+  "game": "SMG2",
+  "credits": "mariokirby1703; Evanbowl; SPG64; BlueXD; Lerua; Super Hackio; Project Template Team",
+  "released": "2022",
+  "page": "https://www.youtube.com/watch?v=jLN5cvEflmw",
+  "source": "https://mega.nz/file/mCYC1K6J#KGiFCBmi3X4ooV9PoZ8_ZRZzvdqIKo-2OOqxsnHy_O8"
+ },
+ {
+  "slug": "smg2-master-mode",
+  "name": "Super Mario Galaxy 2: Master Mode",
+  "game": "SMG2",
+  "credits": "EterSky; Project Template team; Lerua; IonicPixels",
+  "released": "2020",
+  "page": "https://www.youtube.com/watch?v=ClQtx21xA-w",
+  "source": "https://www.mediafire.com/file/cb2vc711loy6rxa/SMG2+Master+Mode+1.4.1.zip/file"
+ },
+ {
+  "slug": "smg2-cosmic-race-collection",
+  "name": "Super Mario Galaxy 2: The Cosmic Race Collection",
+  "game": "SMG2",
+  "credits": "Super Hackio",
+  "released": "2024",
+  "page": "https://www.youtube.com/watch?v=Bay69vwmZyY",
+  "source": "https://mega.nz/file/VddmFAhT#5YW5n-ypDVUxRmEIUjp5KXJDEJsnKVK44b5EQTmpDUA"
+ },
+ {
+  "slug": "smg64-holiday-special",
+  "name": "Super Mario Galaxy 64: Holiday Special",
+  "game": "SMG2",
+  "credits": "MTLenz; Aurum; SY24; Super Hackio; AJ DiSpirito; Mayro",
+  "released": "2017",
+  "page": "https://www.youtube.com/watch?v=t2r0qp2W3yM",
+  "source": "https://www.mediafire.com/file/j1d2ra2mi3uryea/SMG64_Holiday_Special_v1.1.zip/file"
+ },
+ {
+  "slug": "smg-zero",
+  "name": "Super Mario Galaxy Zero",
+  "game": "SMG2",
+  "credits": "SY24; Super Hackio",
+  "released": "2024",
+  "page": "https://www.youtube.com/watch?v=9V7AM9kXokY",
+  "source": "https://github.com/SuperHackio/GalaxyLevelEngine/releases/download/V3.0.0.0/SMG0v1-3_GLE-V3TemplateHack.7z"
+ },
+ {
+  "slug": "super-mario-gravity-demo-1",
+  "name": "Super Mario Gravity (Demo 1)",
+  "game": "SMG2",
+  "credits": "Louis Miles",
+  "released": "2020",
+  "page": "https://www.youtube.com/watch?v=FG_uufkkAJo",
+  "source": "http://www.mediafire.com/file/4rzd02zezl4jyw7/Super_Mario_Gravity_-_Demo_v1.2.zip/file"
+ },
+ {
+  "slug": "super-mario-gravity-demo-2",
+  "name": "Super Mario Gravity (Demo 2)",
+  "game": "SMG2",
+  "credits": "Louis Miles; Trinkets' Toad Symphony; Solargress; Linus Olsson Music; Evanbowl; Aurum; Someone; shibboleet; GalacJack; Kairos; OGRsonic; L-DEV; GrosBidou",
+  "released": "2024",
+  "page": "https://www.youtube.com/watch?v=z85crRh2ACQ",
+  "source": "https://drive.google.com/file/d/1A4lclP7Ut0ctTE5_l0wTmQAi0RsFlPTz/view",
+  "also": [
+   "https://drive.google.com/file/d/1eeY5SWU9GGogAVPnKq-_e-pAZZEsEs8V/view"
+  ]
+ },
+ {
+  "slug": "super-mario-starshine",
+  "name": "Super Mario Starshine",
+  "game": "SMG2",
+  "credits": "SPG64; Alex SMG; Xandog; Evanbowl; Luma48; Galaxy Master; AwesomeTMC; Lord-Giganticus; froggo; Kairos; Super Hackio; Aurum",
+  "released": "2022",
+  "page": "https://www.youtube.com/watch?v=95DEvFvrnQg",
+  "source": "https://www.mediafire.com/file/8ynmhr6v5y0owzb/Super_Mario_Starshine_Demo_v1.4.rar/file",
+  "replaces_gamebanana": 388863
+ },
+ {
+  "slug": "superstar-mario-galaxy",
+  "name": "Superstar Mario Galaxy",
+  "game": "SMG1",
+  "credits": "TheMagicCactus; Master Luma; LariVille; KOBuS",
+  "released": "2022",
+  "page": "https://www.youtube.com/watch?v=at-emMrJdDE",
+  "source": "https://www.mediafire.com/file/zztxb0z08d5zd0i/Superstar_Mario_Galaxy.zip/file"
+ },
+ {
+  "slug": "a-rock-galaxy",
+  "name": "A Rock Galaxy",
+  "game": "SMG2",
+  "credits": "Super Hackio; Mixlas",
+  "released": "2019",
+  "page": "https://www.youtube.com/watch?v=eubcHJr1qx8",
+  "source": "https://mega.nz/file/MBtGWKKb#IGaGQ9VvSikawT3KwFwL4iy9G6P6I1c5g8qUhM2AU9U"
+ },
+ {
+  "slug": "bones-curse",
+  "name": "Bone's Curse",
+  "game": "SMG2",
+  "credits": "Super Hackio; SY24; Humming Owl; MTLenz; Alex SMG; Evanbowl",
+  "released": "2025",
+  "page": "https://www.youtube.com/watch?v=aeCMC7NHNME",
+  "source": "https://mega.nz/file/hIcWlQ7L#ROt3jiW8hQ-6aJ19eRHxbuW39xaahswOwtZppYwfEpg"
+ },
+ {
+  "slug": "desert-snake",
+  "name": "Desert Snake",
+  "game": "SMG2",
+  "credits": "HEYimHeroic",
+  "released": "2023",
+  "page": "https://www.youtube.com/watch?v=NPEuwHRx3vw",
+  "source": "https://heyimheroic.github.io/files/mods/DesertSnake-SMG2.zip"
+ },
+ {
+  "slug": "floaty-beach-galaxy",
+  "name": "Floaty Beach Galaxy",
+  "game": "SMG2",
+  "credits": "Floaty; Super Hackio",
+  "released": "2024",
+  "page": "https://www.youtube.com/watch?v=qyiGnlVDWkA",
+  "source": "https://mega.nz/file/pM9mxJqL#VXLICxFjPL9g81AiZhTpwjdBJedeZrTEknB5nJmS64c"
+ },
+ {
+  "slug": "koopa-cape",
+  "name": "Koopa Cape",
+  "game": "SMG2",
+  "credits": "Super Hackio; SY24",
+  "released": "2025",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/BF0FjTDI#s0qmer0r7skBThYhYGN1r8nU53TbDyUPNq2yIByeYaw"
+ },
+ {
+  "slug": "pipeground-galaxy",
+  "name": "Pipeground Galaxy",
+  "game": "SMG2",
+  "credits": "Super Hackio",
+  "released": "2020",
+  "page": "https://www.youtube.com/watch?v=NYdy4SDmTH8",
+  "source": "https://mega.nz/file/IA9kHapD#vbDhYIzx_pT9uKPIp6M6FovRyjIytgK3-ht09_Wt45E"
+ },
+ {
+  "slug": "rolling-plains-galaxy",
+  "name": "Rolling Plains Galaxy",
+  "game": "SMG1",
+  "credits": "SPG64; Alex SMG; Floaty",
+  "released": "2022",
+  "page": "https://www.youtube.com/watch?v=8mDPSSuBEKI",
+  "source": "https://www.mediafire.com/file/xnvrj4sng8s9uwk/Rolling_Plains_Galaxy_v1.0.rar/file",
+  "replaces_gamebanana": 376852
+ },
+ {
+  "slug": "sphere-creek-galaxy",
+  "name": "Sphere Creek Galaxy",
+  "game": "SMG2",
+  "credits": "Super Hackio",
+  "released": "2022",
+  "page": "https://www.youtube.com/watch?v=tJ1WUKqZQj4",
+  "source": "https://mega.nz/file/gJ1Dka5S#3_jvBHqaa-Vf5KdAy9ZRqkOM0es_9NhWZ9PepD_QgWU"
+ },
+ {
+  "slug": "super-ikea-galaxy",
+  "name": "Super Ikea Galaxy",
+  "game": "SMG2",
+  "credits": "TheMagicCactus; MyronDragonDucc",
+  "released": "2024",
+  "page": "https://youtu.be/rVA1-ZDfR8s",
+  "source": "https://www.mediafire.com/file/iyhbypt2fc5bfsu/IkeaGalaxy.zip/file"
+ },
+ {
+  "slug": "super-roblox-galaxy",
+  "name": "Super Roblox Galaxy",
+  "game": "SMG2",
+  "credits": "TheMagicCactus",
+  "released": "2025",
+  "page": "https://youtu.be/To-OMKyXHMc",
+  "source": "https://www.mediafire.com/file/g72wz7ts59b929x/RobloxGalaxy.zip/file"
+ },
+ {
+  "slug": "switchflip-galaxy",
+  "name": "Switchflip Galaxy",
+  "game": "SMG2",
+  "credits": "Super Hackio",
+  "released": "2020",
+  "page": "https://www.youtube.com/watch?v=xQTRTAWClhE",
+  "source": "https://mega.nz/file/hclCmZRJ#Wv3GxR9Ef-38myXddH-Wlu1kTR1TFc9vLDOq9gT9QgI"
+ },
+ {
+  "slug": "the-arena",
+  "name": "The Arena",
+  "game": "SMG2",
+  "credits": "Super Hackio",
+  "released": "2023",
+  "page": "https://www.youtube.com/watch?v=zAD3gxfH6gE",
+  "source": "https://mega.nz/file/pN11jLTK#7TLp7BTFqZZw5N1Ipg_Gr4tGZOAlh0PEfXHErhdIOzs"
+ },
+ {
+  "slug": "smg-brazilian-portuguese",
+  "name": "Super Mario Galaxy Brazilian Portuguese Version",
+  "game": "SMG1",
+  "credits": "Brazilian Warriors; NintendoBR; SY24",
+  "released": "2012",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/vMgWlTbQ#xRQdFEKEI0pk1hPRcNVlt2kDdARZM1cIOm5-6BV0-Mk"
+ },
+ {
+  "slug": "smg2-brazilian-portuguese",
+  "name": "Super Mario Galaxy 2 Brazilian Portuguese Version",
+  "game": "SMG2",
+  "credits": "Brazilian Warriors; SY24",
+  "released": "2013",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/TNBAyLDZ#ilIy4lzwiRc_KTm2c0efHscPhBvoNHcpYveYzVYTaqo"
+ },
+ {
+  "slug": "smg-chinese",
+  "name": "Super Mario Galaxy Chinese Version",
+  "game": "SMG1",
+  "credits": "ACG汉化组; SY24",
+  "released": "2010",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/rVhRmIQK#knaeEtluvylGNQyb4lsg-hQhkeaYCUmKAJ6JA2wQjug"
+ },
+ {
+  "slug": "smg-chinese-shield",
+  "name": "Super Mario Galaxy Chinese Version (NVIDIA Shield TV)",
+  "game": "SMG1",
+  "credits": "iQue; SY24; Super Hackio",
+  "released": "2018",
+  "page": "https://weibo.com/6154885380/G8y23yTnm",
+  "source": "https://mega.nz/file/HZIUwKzC#fXUcAxq0qXHDDg1uj9ln_2W7obMyL4ruTaD6KaEjPC8"
+ },
+ {
+  "slug": "smg-russian",
+  "name": "Super Mario Galaxy Russian Version",
+  "game": "SMG1",
+  "credits": "reWiision; SY24",
+  "released": "2010",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/6QwzGaBA#MYuiCcHfMqg0Bu6XGKX3jr5ff0BJZoWRxX2SPk2YDA8"
+ },
+ {
+  "slug": "smg2-russian",
+  "name": "Super Mario Galaxy 2 Russian Version",
+  "game": "SMG2",
+  "credits": "Фан сообщество консоли; SY24",
+  "released": "2019",
+  "page": "https://vk.com/wall-43869021_22624",
+  "source": "https://mega.nz/file/fNQyCYBS#Lw5yzqEEoHNz8WNCr2KpmGZ0A-x-0YrRuQXBft5tE1c"
+ },
+ {
+  "slug": "lw-competition-1",
+  "name": "Luma's Workshop Competition 1 - Five Objects",
+  "game": "SMG2",
+  "credits": "PudvahCrew; AwesomeTMC; Gabbo; Aurum; Pineapple840; FrasseFreak; Taycamgame; FortTheo; Xandog",
+  "released": "2021",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://drive.google.com/file/d/16uryoikutSF9Fo4UzJAviP0qfvtbBFDO/view"
+ },
+ {
+  "slug": "lw-competition-2",
+  "name": "Luma's Workshop Competition 2 - Theme Clash",
+  "game": "SMG2",
+  "credits": "Ashley; Xandog; Alex SMG; Laurozz; Kairos; Gabbo",
+  "released": "2021",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://drive.google.com/file/d/1f3qg1Ym68EK2xrHWXv45xx8k4VvVxeyK/view"
+ },
+ {
+  "slug": "lw-competition-3",
+  "name": "Luma's Workshop Competition 3 - Puzzles",
+  "game": "SMG2",
+  "credits": "Ashley; Luma48",
+  "released": "2022",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://drive.google.com/file/d/1rNyt2QYctM_vOdbjavS5R5GiIQTnUm8D/view"
+ },
+ {
+  "slug": "lw-competition-4",
+  "name": "Luma's Workshop Competition 4 - Halloween",
+  "game": "SMG2",
+  "credits": "Ashley; Gabbo; Xandog",
+  "released": "2022",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/1tFikILA#ncor5v583TP7faNbNeHMUUeqYaYFZVVr9Wctc2UQm7I"
+ },
+ {
+  "slug": "lw-competition-5",
+  "name": "Luma's Workshop Competition 5 - 2D",
+  "game": "SMG2",
+  "credits": "Xandog; Alex SMG; BlueXD",
+  "released": "2025",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://www.mediafire.com/file/16t8wqgyl3wf1ge/LWComp5.zip/file"
+ },
+ {
+  "slug": "lw-competition-6",
+  "name": "Luma's Workshop Competition 6 - Heat",
+  "game": "SMG2",
+  "credits": "TheMagicCactus; KOBuS; Kairos; aba gamer; Xandog; Super Hackio",
+  "released": "2024",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/IdNT0A7a#b_xgnsPMUBnlOM6mnxDTeTh1CbcSc6bi7l-yh9VrSXo"
+ },
+ {
+  "slug": "lw-competition-7",
+  "name": "Luma's Workshop Competition 7 - Abstract",
+  "game": "SMG2",
+  "credits": "FloatySMG; Aba Gamer; TheMagicCactus; Alex SMG; SY24; KOBuS; SunkySunka; MTLenz; Xandog; FortTheo; Gabbo; Super Hackio",
+  "released": "2025",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/wF8B1QqR#sVX0tyBOpg3B2IYq5swd27lEk7uhT7ZCiwHoa-jlBsY"
+ },
+ {
+  "slug": "lw-competition-8",
+  "name": "Luma's Workshop Competition 8 - Vanilla",
+  "game": "SMG2",
+  "credits": "yinyangtism; JustAlex; TurgsEpicYoutubeChannel; TheMagicCactus; bu1626a; Flubb4; PudvahCrewTristan; AngryYoungMan; Aba Gamer; ThePlayerRolo; SY24; KOBuS; FortTheo; Xandog; Gabbo; Super Hackio; Humming Owl",
+  "released": "2025",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/0YsBQAIL#FejCCTDQzv4hCdWCTWUPv4MWgSWvEKobq_QUOLpKWSQ"
+ },
+ {
+  "slug": "lw-competition-9",
+  "name": "Luma's Workshop Competition 9 - Freeze",
+  "game": "SMG2",
+  "credits": "bu1626a; yinyangtism; NewerBoomerangMiaro777; Alex SMG; DirtBot; PixiePlums; TurgsEpicYoutubeChannel; Sheep; gaimeri17; charuse; icofriendly; FortTheo; CMakes; Puffy78; mattv1; Xandog; terncito; Bren Crubs; Super Hackio; SY24; Humming Owl; LuminatorByte",
+  "released": "2026",
+  "page": "https://lumasworkshop.com/mods/",
+  "source": "https://mega.nz/file/0ZtEnZSC#0cBAOTgCin1sUPdj8DElh4bOKjRQgkMltvxny2GeDbY"
+ },
+ {
+  "slug": "smg-daredevil-mode",
+  "name": "Super Mario Galaxy: Daredevil Mode",
+  "game": "SMG1",
+  "credits": "Aurum; Lego Mario",
+  "released": "2020",
+  "page": "https://aurumsmods.com/daredevil",
+  "source": "https://mega.nz/file/I91UiLJI#FIm3LKFvyEiQb2N22v4OvREqORIzzDBxTbartVo2pYw"
+ },
+ {
+  "slug": "smg2-daredevil-mode",
+  "name": "Super Mario Galaxy 2: Daredevil Mode",
+  "game": "SMG2",
+  "credits": "Aurum; HEYimHeroic; SY24",
+  "released": "2018",
+  "page": "https://aurumsmods.com/daredevil",
+  "source": "https://mega.nz/file/VgM2yZSC#3vvH8V4pwjkqIyvG8y01diwmEDXNATT9M0_MbDHgVTU"
+ },
+ {
+  "slug": "battle-fort",
+  "name": "Battle Fort",
+  "game": "SMG2",
+  "credits": "Syreyup",
+  "released": "2025",
+  "page": "https://github.com/Syreyup/BattleFortSMG2/releases",
+  "source": "https://github.com/Syreyup/BattleFortSMG2/releases/download/v1.0/Battle.Fort.v1.0.zip",
+  "direct": true
+ },
+ {
+  "slug": "neo-mario-galaxy",
+  "name": "Neo Mario Galaxy",
+  "game": "SMG2",
+  "credits": "Aurum; AJ DiSpirito; Alex SMG; DDinghoya; Floaty; froggo; Gabbo; Hadau; Jau_CR; Kira Kira Hartz; MikaMusic; Mixlas; Mr. BMY; MTLenz; Myron Dragon; Samurai47; StationAlpha; Super Hackio; Super 0'Brothers; SY24",
+  "released": "2017",
+  "page": "https://aurumsmods.com/nmg",
+  "source": "https://mega.nz/folder/xhcDWTzQ#sf7Iya2oNGqQ15LWnWYjWQ"
+ }
+]

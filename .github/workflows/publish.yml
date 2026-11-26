@@ -5,7 +5,8 @@
 # GameBanana with RiftWii's tools/mod_list.py, check the list with the
 # Wii's own parser, and deploy mods.json and the icons to GitHub Pages
 # (https://riftwii.github.io/mods/, served from riftwii.com/mods/).
-# No mod is hosted here: mods.json points at GameBanana's own downloads.
+# GameBanana's mods are not hosted here: mods.json points at GameBanana's own
+# downloads. hosted.json lists the mods kept in this repository's "files" release.
 # The repository's Settings > Pages source must be "GitHub Actions".
 name: publish
 
@@ -85,7 +86,7 @@ jobs:
           python3 -I riftwii/tools/mod_list.py
           --cache .mod-cache
           --check-tool "$RUNNER_TEMP/app_list_check"
-          build site --exclude excluded.txt
+          build site --exclude excluded.txt --hosted hosted.json
 
       - name: Save what this run learned
         if: always()
