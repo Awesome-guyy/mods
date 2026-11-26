@@ -1,0 +1,2 @@
+# GameBanana mod ids the list leaves out, one per line ("# ..." is a comment).
+# Add a mod here when its author asks, with the date and the issue.

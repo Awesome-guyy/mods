@@ -1,0 +1,117 @@
+# SPDX-FileCopyrightText: 2026 RiftWii contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# Every night (and on every push to main): find the Riivolution mods on
+# GameBanana with RiftWii's tools/mod_list.py, check the list with the
+# Wii's own parser, and deploy mods.json and the icons to GitHub Pages
+# (https://riftwii.github.io/mods/, served from riftwii.com/mods/).
+# No mod is hosted here: mods.json points at GameBanana's own downloads.
+# The repository's Settings > Pages source must be "GitHub Actions".
+name: publish
+
+on:
+  schedule:
+    - cron: "23 7 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One build at a time (they share GameBanana's patience), never cancelled.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  RIFTWII_REPO: KakarottoCake/Riftwii
+  # The mods support is on this branch until it is merged; then: main.
+  RIFTWII_REF: gamebanana-mods
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check out RiftWii's list tools
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.RIFTWII_REPO }}
+          ref: ${{ env.RIFTWII_REF }}
+          path: riftwii
+          persist-credentials: false
+          sparse-checkout: |
+            tools/mod_list.py
+            tools/app_list.py
+            tools/app_list_check.cpp
+            src/net/applist.cpp
+            include/riftwii/applist.hpp
+            include/riftwii/jsonreader.hpp
+          sparse-checkout-cone-mode: false
+
+      - name: Build app_list_check
+        run: sh scripts/build_app_list_check.sh riftwii "$RUNNER_TEMP/app_list_check"
+
+      # Pillow draws the icons; 7z looks inside 7z and rar mods.
+      - name: Install Pillow and 7-Zip
+        run: |
+          python3 -m pip install --quiet pillow
+          sudo apt-get install -y -qq 7zip 7zip-rar || sudo apt-get install -y -qq p7zip-full || true
+
+      # What each mod and file was found to be is kept between nights, so
+      # a night looks only at what is new. A first run starts from the seed.
+      - name: Restore what earlier runs learned
+        uses: actions/cache/restore@v4
+        with:
+          path: .mod-cache
+          key: mod-cache-${{ github.run_id }}
+          restore-keys: mod-cache-
+
+      - name: Start from the seed when there is no cache
+        run: |
+          if [ ! -f .mod-cache/state.json ] && [ -d cache-seed ]; then
+            mkdir -p .mod-cache
+            cp -r cache-seed/. .mod-cache/
+          fi
+
+      # A list RiftWii's parser would cut short is never published.
+      - name: Build mods.json and the icons
+        run: >
+          python3 -I riftwii/tools/mod_list.py
+          --cache .mod-cache
+          --check-tool "$RUNNER_TEMP/app_list_check"
+          build site --exclude excluded.txt
+
+      - name: Save what this run learned
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .mod-cache
+          key: mod-cache-${{ github.run_id }}
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
