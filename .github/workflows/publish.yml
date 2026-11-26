@@ -28,7 +28,7 @@ concurrency:
 env:
   RIFTWII_REPO: KakarottoCake/Riftwii
   # The mods support is on this branch until it is merged; then: main.
-  RIFTWII_REF: gamebanana-mods
+  RIFTWII_REF: main
 
 jobs:
   build:
