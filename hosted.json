@@ -430,5 +430,27 @@
   "source": "https://mega.nz/folder/xhcDWTzQ#sf7Iya2oNGqQ15LWnWYjWQ",
   "listed_on": "https://lumasworkshop.com/mods/",
   "picture": "https://lumasworkshop.com/mods/preview_neo_mario_galaxy_0.jpg"
+ },
+ {
+  "id": "rw-epic-mickey-2-classic-controller",
+  "name": "Epic Mickey 2 Classic Controller Support",
+  "makers": "awesome; Vague Rant",
+  "game": "Epic Mickey 2: The Power of Two (USA)",
+  "page": "https://github.com/Awesome-guyy/Hacks-And-More/releases/tag/EM2",
+  "released": "2026-11-26",
+  "url": "https://github.com/Awesome-guyy/Hacks-And-More/releases/download/EM2/EM2_ClassicController.zip",
+  "source": "https://github.com/Awesome-guyy/Hacks-And-More",
+  "description": "Adds Classic Controller support to Epic Mickey 2: The Power of Two (USA release). By awesome and Vague Rant."
+ },
+ {
+  "id": "rw-nfs-prostreet-nunchuk-classic-controller",
+  "name": "ProStreet Nunchuk and Classic Controller Support",
+  "makers": "awesome; Vague Rant",
+  "game": "Need for Speed: ProStreet (USA)",
+  "page": "https://github.com/Awesome-guyy/Hacks-And-More/releases/tag/ProStreet",
+  "released": "2026-11-26",
+  "url": "https://github.com/Awesome-guyy/Hacks-And-More/releases/download/ProStreet/ProStreet_CC_Nunchuk.zip",
+  "source": "https://github.com/Awesome-guyy/Hacks-And-More",
+  "description": "Adds Nunchuk and Classic Controller support to Need for Speed: ProStreet (USA release). By awesome and Vague Rant."
  }
 ]
